@@ -1,0 +1,16 @@
+# Node / React
+node_modules/
+build/
+.vscode/
+.DS_Store
+
+# Python / Django
+__pycache__/
+*.pyc
+env/
+*.sqlite3
+*.log
+
+# Django migrations (ignore all except __init__.py)
+**/migrations/
+!**/migrations/__init__.py
